@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+header, main, footer {
+    max-width: 600px;
+    margin: 0 auto;
+}
+header, footer {
+    margin: 1rem auto;
+    border-style: ridge;
+    border: 1px solid #bbb;
+    padding: .5rem;
+    background-color: #eee;
+    align-items: center;
+    text-align: center;
+}
+header {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+}
+
+header img {
+    width: 100%;
+    height: auto;
+}
+main {
+    margin: 1rem auto;
+    padding: .5rem;
+    align-items: center;
+}
+div {
+    border-top-style: solid;
+    border-bottom-style: solid;
+}
+li{
+    margin-left: 25px;
+}

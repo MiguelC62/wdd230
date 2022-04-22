@@ -5,7 +5,7 @@
 }
 
 body {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.5;
 }
 
@@ -18,9 +18,10 @@ header, footer {
     border-style: ridge;
     border: 1px solid #bbb;
     padding: .5rem;
-    background-color: #eee;
+    background-color: #2DA44E;
     align-items: center;
     text-align: center;
+    color: white;
 }
 header {
     display: grid;

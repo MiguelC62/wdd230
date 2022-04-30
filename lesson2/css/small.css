@@ -9,9 +9,13 @@ body {
     line-height: 1.5;
 }
 
-main section h3 {
+#principle {
     background-color: rgb(50, 50, 127);
     color: white;
+    border-radius: 10px 10px 0 0;
+    margin-left: -0.5rem;
+    margin-right: -0.5rem;
+    padding: 0.5rem;
 }
 
 h2 {
@@ -19,12 +23,15 @@ h2 {
 }
 
 p {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
 }
 main {
     display: grid;
     grid-template-columns: 1fr;
     font-size: 0.8rem;
+    margin: 0 auto;
+    padding: .5rem;
+    font-family: 'Merriweather', serif;
 }
 header, footer, main {
     max-width: 767px;
@@ -44,12 +51,6 @@ main section {
     padding: 0 0.5rem;
     background-color: #eee;
     border-radius: 10px;
-}
-
-main {
-    margin: 0 auto;
-    padding: .5rem;
-    font-family: 'Merriweather', serif;
 }
 
 main section picture img {

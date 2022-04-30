@@ -2,15 +2,12 @@
     main {
         grid-template-columns: 1fr 1fr;
     }
-    h1 {
-        font-size: 2.5rem;
-    }
     
     h2 {
-        font-size: 1.5rem;
+        font-size: 1.1rem;
     }
     p {
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
     main section:nth-child(2) {
         display: block;

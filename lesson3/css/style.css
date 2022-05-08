@@ -67,7 +67,7 @@ nav a:hover {
 	color: yellow;
 }
 
-main {
+main div {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	align-items: center;

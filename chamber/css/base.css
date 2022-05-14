@@ -9,7 +9,7 @@ body {
     line-height: 1.5;
 }
 header, main, footer {
-	max-width: 667px;
+	max-width: 700px;
 	margin: 0 auto;
 }
 header {

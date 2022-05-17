@@ -1,4 +1,4 @@
-@media only screen and (min-width: 40.5em) {
+@media only screen and (min-width: 40em) {
 	.navigation {
 		display: flex;
 	}
@@ -68,6 +68,8 @@ footer {
 .bottom-line {
 	grid-column: 1 / 4;
 	grid-row: 2 / 3;
+	text-align: center;
+	font-size: small;
 }
 .footer-left-column {
 	align-items: center;
@@ -77,6 +79,7 @@ footer {
 	display: flex;
 	flex-direction: row;
 }
+
 .naviga {
 	grid-column: 2 / 3;
 	grid-row: 1 / 2;
@@ -86,4 +89,10 @@ footer {
 	grid-column: 3 / 4;
 	grid-row: 1 / 2;
 }
+
+#lastModified {
+	display: inline;
+
+}
+
 }

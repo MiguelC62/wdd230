@@ -20,3 +20,9 @@ document.querySelector(
 function toggleMenu() {
   document.getElementsByClassName("navigation")[0].classList.toggle("responsive")
 }
+//
+let d = new Date().getDay();
+const banner = document.getElementById("banner");
+if ( d === 1 || d === 2) {
+  banner.style.display = "block";
+}

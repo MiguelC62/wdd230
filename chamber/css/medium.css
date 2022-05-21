@@ -11,6 +11,11 @@
         grid-column: 1 / 4;
         grid-row: 1 / 2;
     }
+    .hero #join1 {
+        top: 130px;
+        left: 400px;
+        width: 150px;
+    }
     .news {
         grid-column: 1 / 4;
         grid-row: 2 / 3;
@@ -34,7 +39,14 @@
         grid-row: 5 / 6;
     }
     .spot1, .spot2 {
+        display: flex;
+        flex-direction: column;
         width: 100%;
+        padding-top: 0;
+    }
+    .spot2 img {
+        width: 80px;
+        height: 50px;
     }
     footer {
         display: grid;
@@ -57,5 +69,31 @@
     #lastModified {
         display: block;
     }
+    .join #join1 {
+        margin: 1em;
+        padding: 1em;
+        
+    }
+    .join #join2 {
+        font-size: medium ;
+        padding: 1em;
+    }
+    .weather h3 {
+        padding-top: 0;
+    }
+    .weather #temperature {
+        text-align: right;
+    }
+    .location {
+        padding-left: 1em;
+    }
+    .address h3 {
+        text-align: left;
+
+    }
+    .weather {
+        margin-left: 0;
+    }
+  
 }
     

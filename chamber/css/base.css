@@ -282,7 +282,7 @@ p {
 	padding: 0 1em;
 }
 .hero {
-	background-image: url("./chamber/images/salta1.jpg");
+	background-image: url("/chamber/images/salta1.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	display: flex;

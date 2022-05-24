@@ -41,6 +41,7 @@ footer {
 	flex-direction: row;
 	text-align: center;
 	padding-left: 0.5em;
+	margin-top: 1rem;
 }
 
 .logo img {
@@ -50,6 +51,8 @@ footer {
 .footer-logo img {
 	width: 100px;
 	height: auto;
+	margin-left: 0.5rem;
+	margin-top: 0.5rem;
 }
 .headings {
 	display: flex;
@@ -195,10 +198,10 @@ p {
 }
 #banner {
 	display: none;
-	margin: 0.5rem auto 0;
+	margin: 0.2rem auto 0;
 	border: 1px solid #bbb;
 	background-color: #eee;
-	padding: 0.5rem;
+	padding: 0.1rem;
 	text-align: center;
 	grid-column: 1 / 4;
 	grid-row: 1 / 2;
@@ -279,7 +282,7 @@ p {
 	padding: 0 1em;
 }
 .hero {
-	background-image: url("images/Salta1.jpg");
+	background-image: url("/chamber/images/salta1.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	display: flex;

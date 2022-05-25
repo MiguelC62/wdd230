@@ -50,6 +50,14 @@
     
     <main>
         <div class="box hero">
+<!-- 
+            <picture class="photo">
+                <source media="(max-width= 200px" srcset="/chamber/images/wdd230-org_small.jpg">
+                <source media="(max-width= 500px" srcset="/chamber/images/wdd230-org_medium.jpg">
+                <source media="(max-width= 800px" srcset="/chamber/images/wdd230-org_large.jpg">
+                <img src="/chamber/images/wdd230-org_default.jpg" alt="organization">
+            </picture>
+-->
             <div id="back">
                 <h1>Welcome to Salta</h1>
             </div>
@@ -66,10 +74,10 @@
             <picture>
                 <img src="images/clouds_and_sun.jpg" alt="clipsrts weather" >
             </picture>
-            <p id="temperature">33 °C</p>
+            <p id="temperature"> <span id="celsius">33</span> °C</p> <span></span>
             <p id="forecast">Partly Cloudy</p>
-            <p id="wind1">Wind Speed: 2.5 km/h</p>
-            <p id="wind2">Wind Chill: N/A</p>
+            <p id="wind1">Wind Speed:  <span id="speed">2.5</span> km/h</p> 
+            <p id="wind2">Wind Chill: <span id="fw">N/A</span></p>
         </div>
         <article class="box news">
             <h3>News Release</h3>
@@ -153,5 +161,6 @@
         </div>
     </footer>
     <script src="js/main.js"></script>
+    <script src="js/windchill.js"></script>
 </body>
 </html>

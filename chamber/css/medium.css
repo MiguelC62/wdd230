@@ -2,7 +2,7 @@
     main {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 25% 10% 25% 15% 25%r;
+        grid-template-rows: 25% 10% 25% 15% 25%;
     }
     .join {
         display: block;

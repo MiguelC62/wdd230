@@ -59,7 +59,7 @@ footer {
 	flex-direction: column;
 }
 
-.headings h1 {
+.headings h3 {
 	font-size: 1rem;
 	margin: 0;
 	padding-left: 0;
@@ -176,12 +176,12 @@ h1 {
 	font-size: 2rem;
 }
 h2 {
-	padding: .5rem;
+	padding: 1rem;
 }
 h3 {
 	text-align: center;
 	padding: 0.5em;
-	font-size: x-large;
+	font-size: large;
 }
 p {
 	text-align: center;
@@ -262,7 +262,7 @@ p {
 	font-size: medium;
 	padding: 1em 2em;
 }
-.join #join1 {
+.join #join-us {
 	font-weight: bold;
 	font-size: medium ;
 	padding: .5em;
@@ -327,18 +327,18 @@ main picture.photo img{
 	width: 80px;
 	height: 90px;
 }
-.spot1 #spot11 {
+.spot1 #spot1-1 {
 	font-weight: bold;
 	font-size: medium ;
 	padding-top: 0.5em;
 	height: auto;
 }
-.spot1 #spot12 #spot13 {
+.spot1 #spot1-2 #spot1-3 {
 	font-weight: bold;
 	font-size: medium ;
 	padding-top: 0.5em;
 }
-#spot12 {
+#spot1-2 {
 	border-top: solid;
 	border-width: 1px;
 }

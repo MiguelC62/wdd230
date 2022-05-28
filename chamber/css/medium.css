@@ -2,10 +2,7 @@
     main {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 25% 10% 25% 15% 25%;
-    }
-    .join {
-        display: block;
+        grid-template-rows: 25% 20% 20% 15% 20%;
     }
     .hero {
         grid-column: 1 / 4;
@@ -27,6 +24,7 @@
         flex-direction: row;
     }
     .join {
+        display: block;
         grid-column: 1 / 4;
         grid-row: 4 / 5;
     }
@@ -39,7 +37,6 @@
     .weather {
         grid-column: 3 / 4;
         grid-row: 5 / 6;
-
     }
     .spot1, .spot2 {
         display: flex;
@@ -72,7 +69,7 @@
     #lastModified {
         display: block;
     }
-    .join #join1 {
+    .join #join-us {
         margin: 1em;
         padding: 1em;
     }
@@ -114,10 +111,17 @@
     width: 100%;
     padding-top: 0;
 }
+main picture.photo {
+	display: block;
+	width: 100%;
+}
   article.box.news {
-      margin-top: 8px;
+      margin-top: 20px;
       padding: 20px;
       
   }
+  h3 {
+	font-size: x-large;
+}
 }
     

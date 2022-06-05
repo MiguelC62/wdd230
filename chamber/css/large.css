@@ -172,14 +172,13 @@ main picture.photo {
 #discover {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	grid-template-rows: 96% 4%;
+	grid-template-rows: 1fr;
 }
+
 #discover-images {
 	grid-column: 2 / 3;
-	grid-row: 1 / 2;
 	display: flex;
     flex-direction: column;
-	height: 100%;
 	background-color: rgb(207,232,220);
 	padding-left: 10px;
 	padding-bottom: 0px;
@@ -187,29 +186,24 @@ main picture.photo {
 	border: 1px solid #000;
 	border-radius: 5px;
 }
-.discover-text-box p {
-text-align: center;
-padding-left: 5px;
-padding-right: 30px;
+
+#discover-images p {
+	text-align: center;
+	margin: 0px 10px 20px 5px;
 }
+
 #discover-images img {
 	border: 1px solid #000;
     margin: 5px;
 }
+
 #discover-text {
 	grid-column: 1 / 2;
-	grid-row: 1 / 2;
+	grid-row: 1 /2;
 	display: flex;
     flex-direction: column;
-	height: 100%;
 }
 
-#discover-text-below {
-	grid-column: 1 / 3;
-	grid-row: 2 / 3;
-	margin-top: 15px;
-	margin-bottom: 0px;
-}
 .discover-text-box {
 	border: 1px solid #000;
     margin: 5px;
@@ -218,6 +212,7 @@ padding-right: 30px;
 	border-radius: 5px;
 	background-color: rgb(207,232,220);
 }
+
 .discover-text-box h2 {
 	padding-top: 20px;
 	padding-bottom: 10px;

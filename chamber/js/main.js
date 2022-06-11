@@ -26,3 +26,11 @@ const banner = document.getElementById("banner");
 if ( d === 1 || d === 2) {
   banner.style.display = "block";
 }
+
+// -----------join page ------------
+var datevalue = document.getElementById('#joindate1');
+console.log(datevalue);
+const datenow = new Date();
+const date2 = "1234"
+datevalue.setAttribute("value", date2);
+console.log(datevalue.value);

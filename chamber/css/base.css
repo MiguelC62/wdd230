@@ -7,6 +7,8 @@
 body {
     font-size: 16px;
     line-height: 1.5;
+	align-items: center;
+	justify-content: center;
 }
 header, main, footer {
 	max-width: 900px;
@@ -418,3 +420,80 @@ margin: 0px 10px 20px 5px;
 
 /* hover effect */
 .norm:hover {box-shadow: 0 0 50px #333;}
+
+/*-----------------JOIN---------------*/
+/*-------------FORM----------------*/
+#page-join {
+	grid-column: 1 / 5;
+	align-content: center;
+	
+}
+#page-join form fieldset, #thanks {
+	margin: 2rem 0;
+	border: 1px solid #445ba9;
+	border-radius: 10px;
+	padding: 0.5rem 2%;
+	background-color: rgb(207,232,220);
+ }
+ #page-join legend {
+	 color: #445ba9;
+	 margin: 0 1rem;
+	 padding: 0 0.5rem;
+ }
+ #page-join form label.top, form div{
+	 display: block;
+	 padding-top: 1rem;
+	 color: #9c2c13;
+	 font-size: .8rem;
+ }
+ #page-join form label.top input, form label.top select{
+	 -webkit-appearance: none;
+	 display: block;
+	 font-size: 1rem;
+	 border: 1px solid #999;
+	 border-radius: 4px;
+	 padding: .75rem;
+	 color: #555;
+	 width: 100%;
+	 max-width: 20rem;
+	 background-color: rgba(0, 0, 0, 0.1);
+ }
+ #page-join form label.sbs{
+	 display: block;
+	 padding: 0.75rem 0;
+	 color: #555;
+ }
+ #page-join form input.submitBtn{
+	 border: none;
+	 background-color: #9c2c13;
+	 color: white;
+	 border-radius: 1rem;
+	 padding: 0.75rem 1.5rem;
+	 margin: 0 0 2rem 2%;
+	 width: 96%;
+	 max-width: 20rem;
+ }
+ #page-join form label.top input:required{
+	 border-left: red solid 6px;
+ }
+ #page-join form label.top input:required:valid{
+	 border-left: green solid 6px;
+ }
+ #page-join h1 {
+	font-size: large;
+ }
+ #page-join textarea {
+	width: 100%;
+	height: 10rem;
+	max-width: 20rem;
+ }
+ #thanks {
+	display: block;
+	grid-column: 2 / 4;
+	grid-row: 1 / 4;
+	align-items: center;
+	align-content: center;
+ }
+ #thanks p {
+	font-size: larger;
+ }

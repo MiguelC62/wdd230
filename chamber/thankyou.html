@@ -35,7 +35,7 @@
                 <li><a href="#" onclick="toggleMenu()">&#9776;</a></li>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="#">Directory</a></li>
-                <li><a href="discover.html">Discover</a></li>
+                <li><a href="#">Join</a></li>
                 <li><a href="#">Contact</a></li>
             </ul> 
         </nav>
@@ -49,37 +49,10 @@
     </header>
     
     <main>
-        <div id="page-join">
-            <form method="get" action="thankyou.html">
-            <fieldset>
-                <legend>Applicant Information</legend>
-                <label class="top">First Name* <input type="text" name="fname" required></label>
-                <label class="top">Lastst Name* <input type="text" name="lname" required></label>
-                <label class="top">Your Business position:
-                    <input type="text" id="position" name="position" title="at least 7 alpha characters, hyphens, and spaces" pattern="[A-Za-z -]{7,}"> </label> 
-                <label class="top">Email* <input type="email" name="email" placeholder="sameone@gmail.com" required></label>
-                <label class="top">Cell Phone* <input type="tel" name="phone" placeholder="1235551234" required></label>
-                <label class="top">Your Business name:
-                    <input type="text" id="bname" name="" required title="at least 7 characters, no spaces" pattern="\S{7,}"> </label> 
-                <label class="top">Website <input type="url" name="url" placeholder="http://www.abc.com"></label>
-            </fieldset>
-    
-            <fieldset>
-                <legend>Membership Level</legend>
-                <div>Audience</div>
-                <label class="sbs"> <input type="radio" name="membership" value="np">NP Membership</label>
-                <label class="sbs"> <input type="radio" name="membership" value="bronze">Bronze Membership</label>
-                <label class="sbs"> <input type="radio" name="membership" value="silver">Silver Membership</label>
-                <label class="sbs"> <input type="radio" name="membership" value="gold">Gold Membership</label>
-            </fieldset>
-    
-            <fieldset>
-                <legend>Business Description</legend>
-                <textarea id="comments" name="comments"></textarea>
-            </fieldset>
-            <input type="hidden" id="join-date"  value="Friday 10 jun 2022">
-            <input type="submit" value = "Join to the Chamber" id="submitBtn">
-            </form>
+        <div id="thanks">
+            <p>Thanks for applying to create a membership into the Salta Chameber of Tourism.<br>
+                We will get back to you within a week with a response.</p>
+            <div id="date-message"></div>
         </div>
     </main>
     
@@ -130,3 +103,5 @@
     <script src= "js/join.js"></script>
 </body>
 </html>
+
+  

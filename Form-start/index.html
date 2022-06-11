@@ -47,9 +47,8 @@
     
 <!-- CONTENT HERE -->
 <main>
-    <h1>Course Proposal Application</h1>
-        
-    <form method="get" action="thanks.html"></form>
+    <h1>Course Proposal Application</h1>   
+        <form method="get" action="thanks.html">
         <fieldset>
             <legend>Applicant Information</legend>
             <label class="top">First Name* <input type="text" name="fname" required></label>
@@ -72,13 +71,13 @@
             <label class="sbs"> <input type="checkbox" name="process" value="yes">Preprocessor</label>
             <label class="sbs"> <input type="checkbox" name="client" value="yes">FTP Client</label>
         </fieldset>
-        
+
         <fieldset>
             <legend>Funding</legend>
             <label class="top">Anticipated Completion Date <input type="date" name="completeDate"></label>
             <label class="top">Course Subject
                 <select name="subject">
-                    <option value="">Please Select</option>
+                    <option value="">Please Select &#9662;</option>
                     <option value="software">Software Development</option>
                     <option value="creative">Software Development</option>
                     <option value="info">Software Development</option>
@@ -92,7 +91,9 @@
             <label class="top">How many authors<input type="number" name="authors"></label>
         </fieldset>
         <input type="submit" value = "Propose My Course" class="submitBtn">
-    </main>
+        </form>
+        
+</main>
     
 <!-- FOOTER HERE -->   
     <footer>

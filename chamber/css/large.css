@@ -232,4 +232,9 @@ main picture.photo {
 /* hover effect */
 .norm:hover {box-shadow: 0 0 50px #333;}
 
+/*---------JOIN---------*/
+
+form label.sbs{
+    padding: 0.4rem 0;
+}
 }

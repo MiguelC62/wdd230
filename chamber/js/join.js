@@ -1,4 +1,4 @@
-var datevalue = document.getElementById('#joindate1').value;
+var datevalue = document.getElementById("joindate").value;
 console.log(datevalue);
 const datenow = new Date();
 const date2 = "1234"

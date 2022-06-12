@@ -28,9 +28,8 @@ if ( d === 1 || d === 2) {
 }
 
 // -----------join page ------------
-var datevalue = document.getElementById('joindate');
+var datevalue = document.getElementById('joindate').value;
 console.log(datevalue);
 const datenow = new Date();
-const date2 = "1234"
-datevalue.setAttribute("value", date2);
+datevalue.setAttribute("value", datenow);
 console.log(datevalue.value);

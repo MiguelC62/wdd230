@@ -28,7 +28,7 @@ if ( d === 1 || d === 2) {
 }
 
 // -----------join page ------------
-var datevalue = document.getElementById('#joindate1');
+var datevalue = document.getElementById('joindate');
 console.log(datevalue);
 const datenow = new Date();
 const date2 = "1234"

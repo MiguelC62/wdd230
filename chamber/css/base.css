@@ -446,7 +446,7 @@ margin: 0px 10px 20px 5px;
 	 color: #9c2c13;
 	 font-size: .8rem;
  }
- #page-join form label.top input, form label.top select{
+ #page-join form label.top input, form label.top select,{
 	 -webkit-appearance: none;
 	 display: block;
 	 font-size: 1rem;

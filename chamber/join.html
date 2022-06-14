@@ -50,7 +50,7 @@
     
     <main>
         <div id="page-join">
-            <form method="get" action="thankyou.html">
+            <form id="myForm" method="get" action="thankyou.html">
                 <fieldset>
                     <legend>Applicant Information</legend>
                     <label class="top">First Name* <input type="text" name="fname" required></label>
@@ -75,7 +75,7 @@
                     <textarea id="comments" name="comments"></textarea>
                 </fieldset>
                 <input id="joindate" type="hidden" value="friday" name="joindate">
-                <input type="submit" value="Join to the Chamber" class="submitBtn" name="submitBtn">
+                <input id="joinsubmit" type="submit" value="Join to the Chamber" class="submitBtn" name="submitBtn">
             </form>
        </div>
     </main>
@@ -121,8 +121,9 @@
             <span id="lastModified"></span>
         </div>
     </footer>
-    <script src="js/main.js" defer></script>
+    <script src="js/join.js"></script>
+    <script src="js/main.js"></script>
     <script src="js/imgehandling.js"></script>
-    <script src= "js/localstorage.js" defer></script>
+    <script src= "js/localstorage.js"></script>
 </body>
 </html>

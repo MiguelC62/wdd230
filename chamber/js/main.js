@@ -27,9 +27,3 @@ if ( d === 1 || d === 2) {
   banner.style.display = "block";
 }
 
-// -----------join page ------------
-var datevalue = document.getElementById('joindate').value;
-console.log(datevalue);
-const datenow = new Date();
-datevalue.setAttribute("value", datenow);
-console.log(datevalue.value);

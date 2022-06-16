@@ -1,0 +1,76 @@
+{
+    "companies": [
+        {
+        "name": "TASTIL",
+        "adress": "Suipacha 760 (C.A.B.A.), Piso 7",
+        "phone_number": "+541143220897",
+        "website": "",
+        "membership": 1,
+        "imageurl": "images/ecotour.jpg"
+        },
+        {
+            "name": "TASTIL",
+            "adress": "Suipacha 760 (C.A.B.A.), Piso 7",
+            "phone_number": "+541143220897",
+            "website": "",
+            "membership": 1,
+            "imageurl": "images/relax.jpg"
+        },
+        {
+            "name": "TASTIL",
+            "adress": "Suipacha 760 (C.A.B.A.), Piso 7",
+            "phone_number": "+541143220897",
+            "website": "",
+            "membership": 1,
+            "imageurl": "images/veladero.jpg"
+        },
+        {
+            "name": "TASTIL",
+            "adress": "Suipacha 760 (C.A.B.A.), Piso 7",
+            "phone_number": "+541143220897",
+            "website": "",
+            "membership": 1,
+            "imageurl": "images/jujuy.jpg"
+        },
+        {
+            "name": "TASTIL",
+            "adress": "Suipacha 760 (C.A.B.A.), Piso 7",
+            "phone_number": "+541143220897",
+            "website": "",
+            "membership": 1,
+            "imageurl": "images/tronador.jpg"
+        },
+        {
+            "name": "TASTIL",
+            "adress": "Suipacha 760 (C.A.B.A.), Piso 7",
+            "phone_number": "+541143220897",
+            "website": "",
+            "membership": 1,
+            "imageurl": "images/tastil.jpg"
+        },
+        {
+            "name": "TASTIL",
+            "adress": "Suipacha 760 (C.A.B.A.), Piso 7",
+            "phone_number": "+541143220897",
+            "website": "",
+            "membership": 1,
+            "imageurl": "images/dealtura.jpg"
+        },
+        {
+            "name": "TASTIL",
+            "adress": "Suipacha 760 (C.A.B.A.), Piso 7",
+            "phone_number": "+541143220897",
+            "website": "",
+            "membership": 1,
+            "imageurl": "images/ruta40.jpg"
+        },
+        {
+            "name": "TASTIL",
+            "adress": "Suipacha 760 (C.A.B.A.), Piso 7",
+            "phone_number": "+541143220897",
+            "website": "",
+            "membership": 1,
+            "imageurl": "images/seguros.jpg"
+        }
+    ]
+  }

@@ -273,17 +273,23 @@ form label.sbs{
 .menu {
 	margin: 1rem auto;
 	border: 1px solid rgba(0, 0, 0, 0.1);
-	padding: 0.5rem;
+	padding: 1rem;
 	background-color: rgb(207,232,220);
 	text-align: center;
+	display: flex;
+	justify-content: space-evenly;
+	
 }
-
+.menu h1{
+	margin: 0 1rem;
+}
 .menu button {
 	padding: 1rem;
 	background-color: #708080;
 	border: 1px solid #708080;
 	color: white;
     font-family: 'Montserrat', sans-serif;
+	height: 60px;
 }
 .list {
 	display: flex;

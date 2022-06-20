@@ -1,7 +1,7 @@
 // select HTML elements to edit
 const currentTemp = document.querySelector('#current-temp');
 const weatherIcon = document.querySelector('#weather-icon');
-const captionDesc = document.querySelector('figcaption');
+const captionDesc = document.querySelector('#caption');
 const currentWind = document.querySelector("#speed");
 const chill = document.getElementById('fw');
 

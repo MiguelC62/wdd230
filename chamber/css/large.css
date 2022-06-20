@@ -261,9 +261,16 @@ form label.sbs{
 	background-color: rgb(207,232,220);
 	border: 1px solid #bbb;
 	display: flex;
-	flex-direction: column;
+	
 	align-items: center;
   }
+
+.cards section.id {
+	flex-direction: column;
+}
+.cards section.idlist {
+	flex-direction: row;
+}
   
 .cards section > p {
 	min-height: 20px;

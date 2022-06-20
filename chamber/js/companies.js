@@ -57,7 +57,6 @@ gridbutton.addEventListener("click", () => {
 	// example using arrow function
 	display.classList.add("grid");
 	display.classList.remove("list");
-  section.style.flexDirection = "column";
 });
 
 listbutton.addEventListener("click", showList); // example using defined function
@@ -65,7 +64,6 @@ listbutton.addEventListener("click", showList); // example using defined functio
 function showList() {
 	display.classList.add("list");
 	display.classList.remove("grid");
-  section.style.flexDirection = "row";
 }
 
 

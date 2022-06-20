@@ -5,8 +5,8 @@ body {
 }
 
 header,
-main,
-footer {
+main
+{
   margin: 1rem;
   position: relative;
 }

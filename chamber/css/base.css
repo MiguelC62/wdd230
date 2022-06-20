@@ -210,7 +210,7 @@ p {
 }
 .weather {
 	display: grid;
-	grid-template-rows: 20% 40% 20% 10% 10%;
+	grid-template-rows: 20% 35% 15% 15% 15%;
 	grid-template-columns: 50% 50%;
 }
 .weather h3 {
@@ -228,13 +228,12 @@ p {
 	font-weight: bold;
 	font-size: x-large;
 }
-.weather #forecast {
+.weather figcaption {
 	grid-row: 3 / 4;
 	grid-column: 1 / 3;
-	padding-top: .5em;
 	font-weight: bold;
 	font-size: large ;
-	text-align: right;
+	text-align: center;
 }
 .weather #wind1 {
 	grid-row: 4 / 5;

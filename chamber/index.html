@@ -72,11 +72,11 @@
         <div class="box weather">
             <h3>Weather</h3>
             <picture>
-                <img src="images/clouds_and_sun.jpg" alt="clipsrts weather" >
+                <img src=" " alt=" " id="weather-icon">
             </picture>
-            <p id="temperature"> <span id="celsius">3</span> °C</p> <span></span>
-            <p id="forecast">Partly Cloudy</p>
-            <p id="wind1">Wind Speed:  <span id="speed">5.5</span> km/h</p> 
+            <figcaption></figcaption>
+            <p id="temperature"> <span id="current-temp"></span> &deg;C</p>
+            <p id="wind1">Wind Speed:  <span id="speed"></span> km/h</p> 
             <p id="wind2">Wind Chill: <span id="fw">N/A</span></p>
         </div>
         <article class="box news">
@@ -161,7 +161,7 @@
         </div>
     </footer>
     <script src="js/main.js"></script>
-    <script src="js/windchill.js"></script>
     <script src= "js/localstorage.js"></script>
+    <script src="js/weatherapi.js"></script>
 </body>
 </html>

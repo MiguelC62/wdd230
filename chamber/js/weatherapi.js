@@ -31,7 +31,7 @@ if ( fahrenheit > 50 || mph < 3) {
     chilltempe = "N/A";
 } else {
     chillCelcius = (5/9)*(chillfactor - 32)
-    chilltempe = `${chillCelcius} °C`;
+    chilltempe = `${chillCelcius.toFixed(1)} °C`;
 }
 return chilltempe
 }

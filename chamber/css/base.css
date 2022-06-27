@@ -316,9 +316,23 @@ main picture.photo img{
 	border-radius: 0.5em;
 	background-color: greenyellow;
 }
+.spot img {
+	width: 100px;
+	height: auto;
+	
+}
+.spot {
+	border: solid;
+	border-width: 1px;
+	padding: 1em;
+	margin-top: 1em;
+}
 .spot1 img {
 	width: 80px;
 	height: auto;
+}
+.spot picture {
+	padding-left: 130px;
 }
 .spot2 img {
 	width: 80px;
@@ -422,30 +436,38 @@ margin: 0px 10px 20px 5px;
 
 /*-----------------JOIN---------------*/
 /*-------------FORM----------------*/
-#page-join {
-	grid-column: 1 / 5;
+#page-join, #form-contact {
+	grid-column: 1 / 3;
 	align-content: center;
-	
 }
-#page-join form fieldset, #thanks {
+#data-contact {
+	grid-column: 3 / 4;
+	align-content: center;
+	margin: 2.8rem 1rem 6.5rem 1rem;
+	border: 1px solid #445ba9;
+	border-radius: 10px;
+	padding: 0.5rem 2%;
+	background-color: rgb(207,232,220);
+}
+#page-join form fieldset, #thanks, #form-contact form fieldset {
 	margin: 2rem 0;
 	border: 1px solid #445ba9;
 	border-radius: 10px;
 	padding: 0.5rem 2%;
 	background-color: rgb(207,232,220);
  }
- #page-join legend {
+ #page-join, #form-contact legend {
 	 color: #445ba9;
 	 margin: 0 1rem;
 	 padding: 0 0.5rem;
  }
- #page-join form label.top, form div{
+ #page-join form label.top, form div, #form-contact form label.top {
 	 display: block;
 	 padding-top: 1rem;
 	 color: #9c2c13;
 	 font-size: .8rem;
  }
- #page-join form label.top input, form label.top select{
+ #page-join form label.top input, form label.top select, #form-contact form label.top input {
 	 -webkit-appearance: none;
 	 display: block;
 	 font-size: 1rem;
@@ -457,12 +479,12 @@ margin: 0px 10px 20px 5px;
 	 max-width: 20rem;
 	 background-color: rgba(0, 0, 0, 0.1);
  }
- #page-join form label.sbs{
+ #page-join form label.sbs, #form-contact form label.sbs {
 	 display: block;
 	 padding: 0.75rem 0;
 	 color: #555;
  }
- #page-join form input.submitBtn{
+ #page-join form input.submitBtn, #form-contact form input.submitBtn{
 	 border: none;
 	 background-color: #9c2c13;
 	 color: white;
@@ -472,16 +494,16 @@ margin: 0px 10px 20px 5px;
 	 width: 96%;
 	 max-width: 20rem;
  }
- #page-join form label.top input:required{
+ #page-join form label.top input:required, #page-contact form label.top input:required {
 	 border-left: red solid 6px;
  }
- #page-join form label.top input:required:valid{
+ #page-join form label.top input:required:valid, #page-contact form label.top input:required:valid {
 	 border-left: green solid 6px;
  }
- #page-join h1 {
+ #page-join h1, #page-contact h1 {
 	font-size: large;
  }
- #page-join textarea {
+ #page-join textarea, #page-contact textarea {
 	width: 100%;
 	height: 10rem;
 	max-width: 20rem;
@@ -496,3 +518,15 @@ margin: 0px 10px 20px 5px;
  #thanks p {
 	font-size: xx-large;
  }
+.join-membership {
+	display: block;
+	grid-column: 3 / 5;
+	grid-row: 1 / 4;
+	margin-top: 2.8rem;
+	margin-bottom: 6.8rem;
+	align-content: center;
+	border: 1px solid #445ba9;
+	border-radius: 10px;
+	padding: 0.5rem 2%;
+	background-color: rgb(207,232,220);
+}

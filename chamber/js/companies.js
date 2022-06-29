@@ -1,4 +1,4 @@
-const requestURL = 'https://github.com/MiguelC62/wdd230/blob/main/chamber/companies.json';
+const requestURL = 'https://github.com/MiguelC62/wdd230/tree/main/chamber/companies.json';
 const cards = document.querySelector('.cards');
 fetch(requestURL)
   .then(function (response) {

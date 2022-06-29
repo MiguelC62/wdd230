@@ -1,31 +1,38 @@
 const requestURL = 'https://github.com/MiguelC62/wdd230/blob/main/chamber/companies.json';
-const cards = document.querySelector('.cards');
+const cards = document.querySelector('.spotlight');
 fetch(requestURL)
   .then(function (response) {
     return response.json();
   })
   .then(function (jsonObject) {
+    const spot = jsonObject['companies'];
+    spot.forEach(ompanies);
+  });c
+  const arrayN = [1,2,3]
+  arrayN.forEach(randomFunction);
+  function randomFunction(item,index, arr){
+    arra[index] = Math.floor(Math.random() * 9);
     console.table(jsonObject);  // temporary checking for valid response and data parsing
-    const prophets = jsonObject['companies'];
-    prophets.forEach(displayCompanies);
-  });
-
-  function displayCompanies(company) {
+  }
+  function companies(company, index) {
     // Create elements to add to the document
-    let card = document.createElement('section');
+    let card = document.createElement('div');
     let logo = document.createElement('img');
+    let h3 = document.createElement("h3");
     let p1 = document.createElement("p");
     let p2 = document.createElement("p");
     let p3 = document.createElement("a");
 
-    card.setAttribute("class", "id")
+    card.setAttribute("class", "spot1")
     
     var linkText = document.createTextNode("http://example.com");
     p3.appendChild(linkText);
     p3.title = "TASTIL";
     p3.href = company.website;
 
-    // Change the textContent property of the p element to contain the prophet's date and place birth
+    h3.textContent = `${company.name}`;  
+
+    // Change the textContent property of the p element 
     p1.textContent = `${company.adress}`;   
     p2.textContent = `${company.phone_number}`;
     p3.setAttribute('href', company.website);
@@ -36,34 +43,20 @@ fetch(requestURL)
     logo.setAttribute('loading', 'lazy');
 
     // Add/append the section(card) with the h2 element
+    card.appendChild(h3);
     card.appendChild(logo);
     card.appendChild(p1);
     card.appendChild(p2);
     card.appendChild(p3);
-  
+
+   
+
+    if (picnumber == index){
+    
     // Add/append the existing HTML div with the cards class with the section(card)
-    document.querySelector('div.cards').appendChild(card);
+    document.querySelector('div.spotlight').appendChild(card);
+    }
   }
 
-  //lista
-const gridbutton = document.querySelector("#grid");
-const listbutton = document.querySelector("#list");
-const display = document.querySelector(".cards");
-const section = document.querySelector(".id");
-
-// The following code could be written cleaner. How? We may have to simplfiy our HTMl and think about a default view.
-
-gridbutton.addEventListener("click", () => {
-	// example using arrow function
-	display.classList.add("grid");
-	display.classList.remove("list");
-});
-
-listbutton.addEventListener("click", showList); // example using defined function
-
-function showList() {
-	display.classList.add("list");
-	display.classList.remove("grid");
-}
 
 

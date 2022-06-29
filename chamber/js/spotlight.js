@@ -1,4 +1,4 @@
-const requestURL = 'https://github.com/MiguelC62/wdd230/tree/main/chamber/companies.json';
+const requestURL = 'https://miguelc62.github.io/wdd230/chamber/companies.json';
 const cards = document.querySelector('.spotlight');
 fetch(requestURL)
   .then(function (response) {

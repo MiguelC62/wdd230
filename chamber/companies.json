@@ -1,7 +1,7 @@
 {
     "companies": [
         {
-        "name": "TASTIL",
+        "name": "ECOTOUR",
         "adress": "Suipacha 760 (C.A.B.A.), Piso 7",
         "phone_number": "+541143220897",
         "website": "",
@@ -9,7 +9,7 @@
         "imageurl": "images/ecotour.jpg"
         },
         {
-            "name": "TASTIL",
+            "name": "RELAX",
             "adress": "Suipacha 760 (C.A.B.A.), Piso 7",
             "phone_number": "+541143220897",
             "website": "",
@@ -17,7 +17,7 @@
             "imageurl": "images/relax.jpg"
         },
         {
-            "name": "TASTIL",
+            "name": "VELADERO",
             "adress": "Suipacha 760 (C.A.B.A.), Piso 7",
             "phone_number": "+541143220897",
             "website": "",
@@ -25,7 +25,7 @@
             "imageurl": "images/veladero.jpg"
         },
         {
-            "name": "TASTIL",
+            "name": "JUJUY",
             "adress": "Suipacha 760 (C.A.B.A.), Piso 7",
             "phone_number": "+541143220897",
             "website": "",
@@ -33,7 +33,7 @@
             "imageurl": "images/jujuy.jpg"
         },
         {
-            "name": "TASTIL",
+            "name": "TRONADOR",
             "adress": "Suipacha 760 (C.A.B.A.), Piso 7",
             "phone_number": "+541143220897",
             "website": "",
@@ -49,7 +49,7 @@
             "imageurl": "images/tastil.jpg"
         },
         {
-            "name": "TASTIL",
+            "name": "DEALTURA",
             "adress": "Suipacha 760 (C.A.B.A.), Piso 7",
             "phone_number": "+541143220897",
             "website": "",
@@ -57,7 +57,7 @@
             "imageurl": "images/dealtura.jpg"
         },
         {
-            "name": "TASTIL",
+            "name": "RUTA40",
             "adress": "Suipacha 760 (C.A.B.A.), Piso 7",
             "phone_number": "+541143220897",
             "website": "",
@@ -65,7 +65,7 @@
             "imageurl": "images/ruta40.jpg"
         },
         {
-            "name": "TASTIL",
+            "name": "SEGUROS",
             "adress": "Suipacha 760 (C.A.B.A.), Piso 7",
             "phone_number": "+541143220897",
             "website": "",

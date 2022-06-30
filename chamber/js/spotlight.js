@@ -6,15 +6,23 @@ fetch(requestURL)
   })
   .then(function (jsonObject) {
     const spot = jsonObject['companies'];
-    spot.forEach(ompanies);
-  });c
-  const arrayN = [1,2,3]
-  arrayN.forEach(randomFunction);
-  function randomFunction(item,index, arr){
-    arra[index] = Math.floor(Math.random() * 9);
-    console.table(jsonObject);  // temporary checking for valid response and data parsing
+    spot.forEach(companies);
+  });
+ 
+
+  function randomFunction(){
+    let i = 0;
+    let arr = [];
+    do {
+      arr[i] = Math.floor(Math.random() * 9);
+      i = i + 1;
+    } while (i < 3);
+    return arr;
   }
+  let vect = randomFunction();
+  
   function companies(company, index) {
+
     // Create elements to add to the document
     let card = document.createElement('div');
     let logo = document.createElement('img');
@@ -49,9 +57,7 @@ fetch(requestURL)
     card.appendChild(p2);
     card.appendChild(p3);
 
-   
-
-    if (picnumber == index){
+    if (vect[0] == index || vect[1] == index || vect[2] == index){
     
     // Add/append the existing HTML div with the cards class with the section(card)
     document.querySelector('div.spotlight').appendChild(card);

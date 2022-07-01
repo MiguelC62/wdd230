@@ -187,7 +187,7 @@ h2 {
 h3 {
 	text-align: center;
 	padding: 0.5em;
-	font-size: large;
+	font-size: larger;
 }
 p {
 	text-align: center;
@@ -287,10 +287,6 @@ p {
 	padding: 0 1em;
 }
 .hero {
-	/*background-image: url("../images/salta1.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;*/
-	/*display: flex;*/
 	position: relative;
 	width: 100%;
 	padding: 0 0;
@@ -362,7 +358,7 @@ main picture.photo img{
 	border-width: 1px;
 }
 .info, .location {
-	font-size: small;
+	font-size: medium;
 	padding-top: 0;
 }
 .address h3 {

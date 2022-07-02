@@ -1,10 +1,7 @@
 const celsius = document.getElementById('current-temp');
 const kmph = document.getElementById('speed');
 const chill = document.getElementById('fw');
-//const celsiusFloat = parseFloat(celsius.textContent);
-//const kmphFloat = parseFloat(kmph.textContent)
-//const fahrenheit = (celsiusFloat * 1.8) + 32;
-//const mph = kmphFloat * 0.62;
+
 const fahrenheit = (celsius * 1.8) + 32;
 const mph = kmph * 0.62;
 console.log(celsius); // this is temporary for development only

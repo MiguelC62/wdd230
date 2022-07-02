@@ -1,4 +1,4 @@
-@media only screen and (min-width: 41em) {
+@media only screen and (min-width: 48em) {
 	.navigation {
 		display: flex;
 	}
@@ -128,7 +128,7 @@ h3 {
 }
 p {
 	text-align: center;
-	font-size: medium;
+	font-size: large;
 }
 .weather #wind1 {
 	font-size: small ;
@@ -146,7 +146,7 @@ p {
 }
 .news #news2 {
 	font-size: small ;
-	padding: 2em;
+	padding: 1em;
 }
 .spot3 img {
 	width: 70px;

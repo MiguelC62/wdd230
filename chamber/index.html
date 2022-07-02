@@ -51,12 +51,10 @@
     <main>
         <div class="box hero">
             <picture class="photo">
-                <img src="images/largesalta.jpg" 
-                    srcset="images/smallsalta.jpg 400w,
-                                images/mediumsalta.jpg 600w,
-                                images/largesalta.jpg 800w" 
-                    sizes="80vw"
-                    alt="organization" >
+                <source  media = "(min-width: 960px)" srcset="images/largesalta.jpg">
+                <source  media = "(min-width: 600px)" srcset="images/mediumsalta.jpg">
+                <source  media = "(min-width: 320px)" srcset="images/smallsalta.jpg">
+                <img src="images/smallsalta.jpg" alt="cuestadelobispo">
             </picture>
             <div id="back">
                 <h1>Welcome to Salta</h1>

@@ -135,10 +135,8 @@ footer {
 	margin: 0.5rem 0 0 0;
   }
 .weather {
-	  max-width: 300px;
 	  margin-top: 0.5em;
 	  padding: 1rem;
-	  margin-left: 2rem;
   }
 
 footer {
@@ -162,7 +160,7 @@ footer {
 	text-align: center;
 }
 .spot1 img {
-	margin-left: 50px;
+	margin: auto;
 	max-height: 70px;
 }
 .spot1 h3 {

@@ -1,5 +1,9 @@
+const x = window.matchMedia("(min-width: 700px)");
+console.log(x.matches);
 const requestURL = 'https://miguelc62.github.io/wdd230/chamber/companies.json';
 const cards = document.querySelector('.spotlight');
+let vect = randomFunction();
+
 fetch(requestURL)
   .then(function (response) {
     return response.json();
@@ -19,9 +23,8 @@ fetch(requestURL)
     } while (i < 3);
     return arr;
   }
-  let vect = randomFunction();
-  
-  function companies(company, index) {
+ 
+  function companies(company, index, x) {
 
     // Create elements to add to the document
     let card = document.createElement('div');
@@ -57,12 +60,18 @@ fetch(requestURL)
     card.appendChild(p2);
     card.appendChild(p3);
 
-    if (vect[0] == index || vect[1] == index || vect[2] == index){
-    
+    if (x.matches) { // If media query matches
+      
+      if (vect[0] == index || vect[1] == index || vect[2] == index){
     // Add/append the existing HTML div with the cards class with the section(card)
-    document.querySelector('div.spotlight').appendChild(card);
+      document.querySelector('div.spotlight').appendChild(card);
+      } 
+    } else {
+      if (vect[0] == index || vect[1] == index){
+        // Add/append the existing HTML div with the cards class with the section(card)
+          document.querySelector('div.spotlight').appendChild(card);
+      }
     }
   }
-
 
 

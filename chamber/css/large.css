@@ -60,7 +60,10 @@ main {
 .weather {
 	grid-column: 1 / 2;
 	grid-row: 2 / 3;
-	margin-right: 0.5em;
+	max-width: 260px;
+	margin: 0.5em 0.5em 0 0;
+	padding: 0.5rem;
+	
 }
 .spot1, .spot2, .spot3 {
 	width: 100%;
@@ -149,7 +152,7 @@ p {
 	padding: 1em;
 }
 .spot3 img {
-	width: 70px;
+	width: 80px;
 	height: 80px;
 }
 .spot3, .spot2, .spot1 {

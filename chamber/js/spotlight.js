@@ -78,7 +78,6 @@ fetch(requestURL)
     card.appendChild(p2);
     card.appendChild(p3);
 
-    console.log(x);
     if (x > 2) { // If media query matches
       
       if (vect[0] == index || vect[1] == index || vect[2] == index){

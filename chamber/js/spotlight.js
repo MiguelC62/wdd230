@@ -8,7 +8,7 @@ function getWidth() {
         document.documentElement.clientWidth
    );
   
-   if(maxWidth > 960){
+   if(maxWidth > 896){
       x = 3;
    }else{
       x = 2;

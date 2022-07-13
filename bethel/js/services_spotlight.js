@@ -10,8 +10,6 @@ function getWidth() {
     
      if(maxWidth > 896){
         x = 3;
-     } else if(maxWidth > 600) {
-        x = 2;
      } else {
         x = 1;
      }
@@ -32,7 +30,6 @@ function getWidth() {
       const spot = jsonObject['services'];
       spot.forEach(pictures);
     });
-   
   
     function randomFunction(){
       let i = 0;
@@ -71,19 +68,11 @@ function getWidth() {
             // Add/append the existing HTML div with the cards class with the section(card)
                 document.querySelector('div.services').appendChild(card);
             } 
-        } else {
-            if (x > 1) {
-                if (vect[0] == index || vect[1] == index){
-                    // Add/append the existing HTML div with the cards class with the section(card)
-                    document.querySelector('div.services').appendChild(card);
-                }
-            } else {
-                if (vect[0] == index){
-                    // Add/append the existing HTML div with the cards class with the section(card)
-                    document.querySelector('div.services').appendChild(card);
-                }
+        } else {  
+            if (vect[0] == index || vect[1] == index){
+                // Add/append the existing HTML div with the cards class with the section(card)
+                document.querySelector('div.services').appendChild(card);
             }
-        
         }
     }
   

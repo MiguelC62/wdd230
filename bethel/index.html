@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bethel Inn&Suites</title>
+    <meta name = "description" content = "Assignment w12 in WDD 230">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <picture>
+                <img src="images/Bethel-logo.png" alt="logo Bethel Inn&Suites" >
+            </picture>
+        </div>
+        <nav class="naviga">
+            <ul class="navigation">
+                <li><a href="#" onclick="toggleMenu()">&#9776;</a></li>
+                <li><a href="temples.html">Temples</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="reservation.html">Reservation</a></li>
+            </ul> 
+        </nav>
+        <div class="social">
+                <a href="https://www.facebook.com"><img src="images/facebook_icon.png" alt="facebook icon"></a>
+                <a href="https://www.linkedin.com"><img src="images/linkedin_icon.png" alt="linkedin icon"></a>
+        </div>
+        
+        <div class="date"></div>
+
+        <div id ="alert">
+            📢 &#x26a0; Weather Warning on Wednesday at 7:00 p.m.
+        </div>
+    </header>
+    
+    <main>
+        <div class="box hero">
+            <picture class="photo">
+                <source  media = "(min-width: 960px)" srcset="images/suite-large.jpg">
+                <source  media = "(min-width: 600px)" srcset="images/suite-medium.jpg">
+                <source  media = "(min-width: 320px)" srcset="images/suite-small.jpg">
+                <img src="images/smallsalta.jpg" alt="cuestadelobispo">
+            </picture>
+            <div id="back">
+            </div>
+            <p id="join1">Reservation</p>
+        </div>
+        
+        <div class="spotlight"></div>
+
+        <div class="box weather">
+            <h3>Weather Bethesda</h3>
+            <div id="image-caption">
+                <img src="#" alt="" id="weather-icon">
+                <p id="caption"></p>
+            </div>
+            <p id="temperature">Temperature<br><span id="current-temp"></span> &deg;C</p>
+            <p id="humidity">Humidity<br><span id="current-humid"></span>%</p>
+            <p id="wind1">Wind Speed:  <span id="speed"></span> km/h</p> 
+            <p id="wind2">Wind Chill: <span id="fw">N/A</span></p>
+        </div>
+        <div class="box forecast">
+            <h3>Forecast Next 3 Days</h3>
+            <div class="box forecast-three">
+                <div class="day one">
+                    <p id="forecast-one"></p>
+                    <img src="#" alt="" id="weather-one-icon">
+                    <p id="caption-one"></p>
+                    <p id="tempeOne"> <span id="tempe-one"></span> &deg;C</p>
+                </div>
+                <div class="day two">
+                    <p id="forecast-two"></p>
+                    <img src="#" alt="" id="weather-two-icon">
+                    <p id="caption-two"></p>
+                    <p id="tempeTwo"> <span id="tempe-two"></span> &deg;C</p>
+                </div>
+                <div class="day three">
+                    <p id="forecast-three"></p>
+                    <img src="#" alt="" id="weather-three-icon">
+                    <p id="caption-three"></p>
+                    <p id="tempeThree"> <span id="tempe-three"></span> &deg;C</p>
+                </div>
+            </div>
+        </div>
+       
+    </main>
+    <footer>
+        <div class="footer-logo">
+            <img src="images/Bethel-logo.png" alt="logo Bethel Inn&Suites" >
+        </div>
+        <div class="footer-address">
+            <address>
+                    4867 Montgomery Ln #300,<br/>
+                    Bethesda, MD 20814 
+            </address>
+        </div>
+        
+        <div class="footer-info">
+            <div class="email">
+                <a href="mailto:info@saltachamber.org">info@saltachamber.org</a>
+            </div>
+            <div class="phone">
+                <a href="tel:+122320702300">+(223) 2070-2300</a>
+            </div>
+            <div class="maplink">
+                <a href="https://goo.gl/maps/4K1tAes2QQM6W67z6">Location Map<br> </a>
+                <div class="maps">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.389581986102!2d-77.09991388499562!3d38.983604179557396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97c93d073e1%3A0x4d5621c2b72bffd0!2s4867%20Montgomery%20Ln%20%23300%2C%20Bethesda%2C%20MD%2020814%2C%20USA!5e0!3m2!1sen!2sar!4v1657556389122!5m2!1sen!2sar" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-line">
+            <span class="toggleoneline">
+                &copy;<span id="copyrightYear"></span>Bethel Inn&Suites</span>
+            <span class="divider"> | </span>
+            <span class="toggleoneline larger bold">Miguel A. Condorí</span>
+            <span class="divider"> | </span>
+            <span class="toggleoneline">WDD 230 Project</span>
+            <span class="divider"> | </span>
+            <span id="lastModified"></span>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+    <script src="js/weatherapi.js"></script>
+    <script src="js/spotlight.js"></script>
+</body>
+</html>

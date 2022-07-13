@@ -1,0 +1,489 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    line-height: 1.5;
+	align-items: center;
+	justify-content: center;
+}
+header, main, footer {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+header {
+	display: grid;
+	grid-template-columns: 1fr 50% 1fr;
+	grid-template-rows: 20% 60% 20%;
+}
+
+header, footer {
+	background-color: #456954;
+    color: #000;
+    font-family: 'Roboto', 'Open sans', sans-serif;
+	padding: 5px;
+	align-items: center;	
+}
+
+.logo {
+	grid-column: 2 / 3;
+	grid-row: 2 / 3;
+	margin-bottom: 15px;
+}
+
+.logo img {
+	width: 90%;
+}
+
+.social {
+	display: flex;
+	flex-direction: column;
+	grid-column: 3 / 4;
+	grid-row: 2 / 3;
+	align-items: start;
+}
+.social img {
+	width: 32px;
+	height: 32px;
+}
+
+.naviga {
+	grid-column: 1 / 2;
+	grid-row: 2 / 3;
+	margin: 0 10px;
+}
+
+.date {
+	grid-column: 1 / 4;
+	grid-row: 3 / 4;
+	text-align: center;
+}
+#alert {
+	display: none;
+	margin: 0.2rem auto 0;
+	border: 1px solid #bbb;
+	border-radius: 5px;
+	background-color: #eee;
+	padding: 0.1rem;
+	text-align: center;
+	grid-column: 1 / 4;
+	grid-row: 1 / 2;
+	color: #695454;
+}
+
+.navigation {
+	list-style: none;
+	padding: 0;
+	text-align: center;
+	border-radius: 5px;
+	background-color: #DFF0D8;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+	padding: 20px 0;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+}
+.navigation a:hover {
+	color: white;
+	background-color: #695454;
+	font-weight: 700;
+}
+
+.responsive li {
+	display: block;
+}
+
+footer {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.footer-logo img {
+	width: 100%;
+	height: auto;
+}
+
+.footer-info {
+	margin-top: 10px;
+}
+.maps{
+	margin: 10px;
+}
+.box {
+	width: 100%;
+	border-radius: 5px;
+	background-color: #DFF0D8;
+	padding: 0.5em;
+  }
+
+.spotlight {
+	display: block;
+	background-color: #DFF0D8;
+	margin: 0.5rem 0 0 0;
+	border-radius: 5px;
+}
+.spot1 {
+	width: auto;
+	height: 220px;
+	border-radius: 5px;
+	border-style: solid;
+	border-width: 1px;
+	padding: 0.5em;
+	margin: 0.5rem 0;
+	text-align: center;
+}
+.spot1 img {
+	margin: auto;
+	max-height: 70px;
+}
+.spot1 h3 {
+	padding: 0;
+}
+
+h1 {
+	font-size: 2rem;
+	color: #000;
+}
+h2 {
+	padding: 1rem;
+}
+h3 {
+	text-align: center;
+	padding: 0.5em;
+	font-size: x-large;
+}
+p {
+	text-align: center;
+	font-size: large;
+}
+.address, .headings {
+	padding: 0 5px;
+}
+.bottom-line {
+	display: block;
+	text-align: center;
+	font-size: medium;
+}
+
+.weather {
+	display: grid;
+	grid-template-rows: 25% 45% 15% 15%;
+	grid-template-columns: 30% 35% 35%;
+	margin-top: 0.5em;
+	padding: 0.5rem;
+}
+.weather h3 {
+	grid-column: 1 / 4;
+}
+.weather #image-caption {
+	grid-row: 2 / 3;
+	grid-column: 1 / 2;
+	align-items: center;
+}
+.weather #caption {
+	font-weight: bold;
+	font-size: large ;
+	text-align: center;
+	margin-bottom: 0.5em;
+}
+.weather img {
+	width: 70px;
+	height: auto;
+	margin-bottom: -1em;
+}
+.weather #temperature {
+	grid-row: 2 / 3;
+	grid-column: 2 / 3;
+	padding-top: 0.5em;
+	font-weight: bold;
+	font-size: large;
+}
+.weather #humidity {
+	grid-row: 2 / 3;
+	grid-column: 3 / 4;
+	padding-top: 0.5em;
+	font-weight: bold;
+	font-size: large;
+}
+
+.weather #wind1 {
+	grid-row: 3 / 4;
+	grid-column: 1 / 4;
+	text-align: center;
+	border-top: solid;
+	border-width: 2px;
+	font-weight: bold;
+	font-size: medium ;
+}
+.weather #wind2 {
+	grid-row: 4 / 5;
+	grid-column: 1 / 4;
+	text-align: center;
+	font-weight: bold;
+	font-size: medium ;
+}
+.forecast-three {
+	display: flex;
+	flex-direction: row;
+}
+
+.day{
+	width: 33%;
+	border-radius: 5px;
+	border-style: solid;
+	border-width: 1px;
+	margin: 5px;
+}
+.hero {
+	position: relative;
+	width: 100%;
+}
+
+.hero img {
+	width: 100%;
+}
+.hero #join1 {
+	position: absolute;
+	top: 230px;
+	left: 130px;
+	width: 130px;
+	height: 40px;
+	font-weight: bold;
+	font-size: large ;
+	padding: .2em;
+	border: solid;
+	border-radius: 0.5em;
+	background-color: #DFF0D8;
+}
+.spot img {
+	width: 100px;
+	height: auto;
+	
+}
+.spot {
+	border: solid;
+	border-width: 1px;
+	padding: 1em;
+	margin-top: 1em;
+}
+.spot1 img {
+	width: 80px;
+	height: auto;
+}
+.spot picture {
+	padding-left: 130px;
+}
+
+.spot1 #spot1-1 {
+	font-weight: bold;
+	font-size: medium ;
+	padding-top: 0.5em;
+	height: auto;
+}
+.spot1 #spot1-2 #spot1-3 {
+	font-weight: bold;
+	font-size: medium ;
+	padding-top: 0.5em;
+}
+#spot1-2 {
+	border-top: solid;
+	border-width: 1px;
+}
+.info, .location {
+	font-size: medium;
+	padding-top: 0;
+}
+.address h3 {
+	margin-top: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+#back {
+	position: absolute;
+	left: 50px;
+	top: -30px;
+}
+
+/*discover page*/
+
+#discover {
+	display: block;
+}
+
+#discover p {
+	font-size: small;
+}
+#discover-images {
+	background-color: rgb(207,232,220);
+	padding-left: 10px;
+	padding-bottom: 0px;
+	margin-top: 5px;
+	border: 1px solid #000;
+	border-radius: 5px;
+}
+
+#discover-images p {
+text-align: center;
+margin: 0px 10px 20px 5px;
+}
+
+#discover-images img {
+	border: 1px solid #000;
+    margin: 5px;
+}
+
+#discover-text {
+	display: flex;
+    flex-direction: column;
+}
+
+.discover-text-box {
+	border: 1px solid #000;
+    margin: 5px;
+	text-align: center;
+	padding: 0px 20px 20px 20px;
+	border-radius: 5px;
+	background-color: rgb(207,232,220);
+}
+
+.discover-text-box h2 {
+	padding-top: 20px;
+	padding-bottom: 10px;
+	font-size: large;
+}
+
+.label {
+	font-family: Arial, sans-serif;
+	font-weight: 700;
+}
+
+#visits {
+	color: #000;
+	font-weight: bolder;
+	font-size: medium;
+}
+
+/* hover effect */
+.norm:hover {box-shadow: 0 0 50px #333;}
+
+/*-----------------JOIN---------------*/
+/*-------------FORM----------------*/
+#page-join, #form-contact {
+	grid-column: 1 / 3;
+	align-content: center;
+}
+#data-contact {
+	grid-column: 3 / 4;
+	align-content: center;
+	margin: 2.8rem 1rem 6.5rem 1rem;
+	border: 1px solid #445ba9;
+	border-radius: 10px;
+	padding: 0.5rem 2%;
+	background-color: rgb(207,232,220);
+}
+#page-join form fieldset, #thanks, #form-contact form fieldset {
+	margin: 1rem 0;
+	border: 1px solid #445ba9;
+	border-radius: 10px;
+	padding: 0.5rem 2%;
+	background-color: rgb(207,232,220);
+ }
+ #page-join, #form-contact legend {
+	 color: #445ba9;
+	 margin: 0 1rem;
+	 padding: 0 0.5rem;
+ }
+ #page-join form label.top, form div, #form-contact form label.top {
+	 display: block;
+	 padding-top: 1rem;
+	 color: #9c2c13;
+	 font-size: .8rem;
+ }
+ #page-join form label.top input, form label.top select, #form-contact form label.top input {
+	 -webkit-appearance: none;
+	 display: block;
+	 font-size: 1rem;
+	 border: 1px solid #999;
+	 border-radius: 4px;
+	 padding: .75rem;
+	 color: #555;
+	 width: 100%;
+	 max-width: 20rem;
+	 background-color: rgba(0, 0, 0, 0.1);
+ }
+ #page-join form label.sbs, #form-contact form label.sbs {
+	 display: block;
+	 padding: 0.75rem 0;
+	 color: #555;
+ }
+ #page-join form input.submitBtn, #form-contact form input.submitBtn{
+	 border: none;
+	 background-color: #9c2c13;
+	 color: white;
+	 border-radius: 1rem;
+	 padding: 0.75rem 1.5rem;
+	 margin: 0 0 2rem 2%;
+	 width: 96%;
+	 max-width: 20rem;
+ }
+ #page-join form label.top input:required, #form-contact form label.top input:required {
+	 border-left: red solid 6px;
+ }
+ #page-join form label.top input:required:valid, #form-contact form label.top input:required:valid {
+	 border-left: green solid 6px;
+ }
+ #page-join h1, #form-contact h1 {
+	font-size: large;
+ }
+ #page-join textarea, #form-contact textarea {
+	width: 100%;
+	height: 10rem;
+	max-width: 20rem;
+ }
+ #thanks {
+	display: block;
+	grid-column: 2 / 4;
+	grid-row: 1 / 4;
+	align-items: center;
+	align-content: center;
+ }
+ #thanks p {
+	font-size: xx-large;
+ }
+.join-membership {
+	display: block;
+	grid-column: 3 / 5;
+	grid-row: 1 / 4;
+	margin-top: 1.8rem;
+	margin-bottom: 6.8rem;
+	align-content: center;
+	border: 1px solid #445ba9;
+	border-radius: 10px;
+	padding: 0.5rem 2%;
+	background-color: rgb(207,232,220);
+}
+.data {
+	padding: 1.2rem;
+}
+#data-contact{
+	margin-top: 1.7rem;
+}
+.data1 {
+	padding-top: 1rem;
+}
+.info a {
+	color: #000;
+}

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salta Chamber of Tourism</title>
+    <meta name = "description" content = "Assignment w03 in WDD 230">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+<body>
+    <header>
+        <div id ="banner">
+            🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.
+        </div>
+        <div class="logo">
+            <picture>
+                <img src="images/logo.webp" alt="logo Salta Chamber" >
+            </picture>
+            <section class="headings">
+                <h3>Salta<br>
+                Chamber of Tourism</h3>
+            </section>
+        </div>
+        
+        <nav class="naviga">
+            <ul class="navigation">
+                <li><a href="#" onclick="toggleMenu()">&#9776;</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul> 
+        </nav>
+        <div class="social">
+                <a href="https://www.facebook.com"><img src="images/facebook_icon.png" alt="facebook icon"></a>
+                <a href="https://www.linkedin.com"><img src="images/linkedin_icon.png" alt="linkedin icon"></a>
+        </div>
+        
+        <div class="date"></div>
+           
+    </header>
+    
+    <main>
+        <div id="page-join">
+            <form id="myForm" method="get" action="thankyou.html">
+                <fieldset>
+                    <legend>Applicant Information</legend>
+                    <label class="top">First Name* <input type="text" name="fname" required></label>
+                    <label class="top">Lastst Name* <input type="text" name="lname" required></label>
+                    <label class="top">Business Position <input type="text" name="position" title="at least 7 alpha characters, hyphens, and spaces" pattern="[A-Za-z -]{7,}"> </label> 
+                    <label class="top">Email* <input type="email" name="email" placeholder="sameone@gmail.com" required></label>
+                    <label class="top">Cell Phone* <input type="tel" name="phone" placeholder="1235551234" required></label>
+                    <label class="top">Business Name* <input type="text" id="bname" name="bname" title="at least 7 characters, no spaces" pattern="\S{7,}" required></label> 
+                    <label class="top">Website <input type="url" name="url" placeholder="http://www.abc.com"></label>
+                </fieldset>
+    
+                <fieldset>
+                    <legend>Membership Level</legend>
+                    <label class="sbs"> <input type="radio" name="membership" value="np">NP Membership</label>
+                    <label class="sbs"> <input type="radio" name="membership" value="bronze">Bronze Membership</label>
+                    <label class="sbs"> <input type="radio" name="membership" value="silver">Silver Membership</label>
+                    <label class="sbs"> <input type="radio" name="membership" value="gold">Gold Membership</label>
+                </fieldset>
+    
+                <fieldset>
+                    <legend>Business Description</legend>
+                    <textarea id="comments" name="comments"></textarea>
+                </fieldset>
+                <input id="joindate" type="hidden" value="friday" name="joindate">
+                <input id="joinsubmit" type="submit" value="Join to the Chamber" class="submitBtn" name="submitBtn">
+            </form>
+       </div>
+       
+        <div class="join-membership">
+            
+            <div class="spot">
+                <h3>NP Membership</h3>
+                <picture>
+                    <img src="images/NM.jpg" alt="No membership" >
+                </picture>
+                <p >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto quibusdam vero cum quaerat aliquam quo, deserunt omnis accusamus repellendus exercitationem!</p>
+            </div>
+            <div class="spot">
+                <h3>Bronze Membership</h3>
+                <picture>
+                    <img src="images/bronze.jpg" alt="bronze membership" >
+                </picture>
+                <p >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto quibusdam vero cum quaerat aliquam quo, deserunt omnis accusamus repellendus exercitationem!</p>
+            </div>
+            <div class="spot">
+                <h3>Silver Membership</h3>
+                <picture>
+                    <img src="images/silver.jpg" alt="silver membership" >
+                </picture>
+                <p >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto quibusdam vero cum quaerat aliquam quo, deserunt omnis accusamus repellendus exercitationem!</p>
+            </div>
+            <div class="spot">
+                <h3>Gold Membership</h3>
+                <picture>
+                    <img src="images/gold.jpg" alt="gold membership" >
+                </picture>
+                <p >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto quibusdam vero cum quaerat aliquam quo, deserunt omnis accusamus repellendus exercitationem!</p>
+            </div>
+        </div>
+       
+    </main>
+    
+    <footer>
+        <div class="footer-container">
+            <div class="footer-left-column">
+                <span class="footer-logo">
+                    <img src="images/logo.webp" alt="logo Salta Chamber" >
+                </span>
+                <div class="address">
+                    <h3>Salta Chamber of Tourism</h3>
+                    <address>
+                        <div class="location">
+                            555 Alvarado Av. <br/>
+                            Salta, Argentina 4400
+                        </div>
+                    </address>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="info">
+            <div class="email">
+                <a href="mailto:info@saltachamber.org">info@saltachamber.org</a>
+            </div>
+            <div class="phone">
+                <a href="tel:+122320702300">+(223) 2070-2300</a>
+            </div>
+            <div class="maplink">
+                <a href="https://googl/maps/mgbSG">Location Map</a>
+            </div>
+        </div>
+        <div class="bottom-line">
+            <span class="toggleoneline">
+                &copy;<span id="copyrightYear"></span> Salta Chamber</span>
+            <span class="divider"> | </span>
+            <span class="toggleoneline larger bold">Miguel A. Condorí</span>
+            <span class="divider"> | </span>
+            <span class="toggleoneline">WDD 230 Project</span>
+            <span class="divider"> | </span>
+            <span id="lastModified"></span>
+        </div>
+    </footer>
+    <script src="js/join.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/imgehandling.js"></script>
+</body>
+</html>

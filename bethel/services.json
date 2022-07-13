@@ -1,0 +1,40 @@
+{
+    "services": [
+        {
+        "name": "room one",
+        "imageurl": "images/services1-small.jpg"
+        },
+        {
+        "name": "room one",
+        "imageurl": "images/services1-small.jpg"
+        },
+        {
+        "name": "room one",
+        "imageurl": "images/services1-small.jpg"
+        },
+        {
+        "name": "room one",
+        "imageurl": "images/services1-small.jpg"
+        },
+        {
+        "name": "room one",
+        "imageurl": "images/services1-small.jpg"
+        },
+        {
+        "name": "room one",
+        "imageurl": "images/services1-small.jpg"
+        },
+        {
+        "name": "room one",
+        "imageurl": "images/services1-small.jpg"
+        },
+        {
+        "name": "room one",
+        "imageurl": "images/services1-small.jpg"
+        },
+        {
+        "name": "room one",
+        "imageurl": "images/services1-small.jpg"
+        }
+    ]
+  }

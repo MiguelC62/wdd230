@@ -45,17 +45,19 @@
     </header>
     
     <main>
-        <div class="box hero">
+        <div class="hero">
             <picture class="photo">
                 <source  media = "(min-width: 960px)" srcset="images/suite-large.jpg">
                 <source  media = "(min-width: 600px)" srcset="images/suite-medium.jpg">
                 <source  media = "(min-width: 320px)" srcset="images/suite-small.jpg">
-                <img src="images/smallsalta.jpg" alt="cuestadelobispo">
+                <img src="images/suite-small.jpg" alt="temples">
             </picture>
-            <div id="back">
-            </div>
-            <p id="join1">Reservation</p>
+
+            <div id="back"></div>
+
+            <p id="join">Reservation</p>
         </div>
+        <div class="services"></div>
         
         <div class="spotlight"></div>
 
@@ -72,7 +74,7 @@
         </div>
         <div class="box forecast">
             <h3>Forecast Next 3 Days</h3>
-            <div class="box forecast-three">
+            <div class="forecast-three">
                 <div class="day one">
                     <p id="forecast-one"></p>
                     <img src="#" alt="" id="weather-one-icon">
@@ -99,26 +101,28 @@
         <div class="footer-logo">
             <img src="images/Bethel-logo.png" alt="logo Bethel Inn&Suites" >
         </div>
-        <div class="footer-address">
-            <address>
-                    4867 Montgomery Ln #300,<br/>
-                    Bethesda, MD 20814 
-            </address>
-        </div>
-        
-        <div class="footer-info">
-            <div class="email">
-                <a href="mailto:info@saltachamber.org">info@saltachamber.org</a>
+        <div class="contact-info">
+            <div class="footer-address">
+                <address>
+                        4867 Montgomery Ln #300,<br/>
+                        Bethesda, MD 20814 
+                </address>
             </div>
-            <div class="phone">
-                <a href="tel:+122320702300">+(223) 2070-2300</a>
-            </div>
-            <div class="maplink">
-                <a href="https://goo.gl/maps/4K1tAes2QQM6W67z6">Location Map<br> </a>
-                <div class="maps">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.389581986102!2d-77.09991388499562!3d38.983604179557396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97c93d073e1%3A0x4d5621c2b72bffd0!2s4867%20Montgomery%20Ln%20%23300%2C%20Bethesda%2C%20MD%2020814%2C%20USA!5e0!3m2!1sen!2sar!4v1657556389122!5m2!1sen!2sar" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="footer-info">
+                <div class="email">
+                    <a href="mailto:info@saltachamber.org">info@saltachamber.org</a>
+                </div>
+                <div class="phone">
+                    <a href="tel:+122320702300">+(223) 2070-2300</a>
+                </div>
+                <div class="maplink">
+                    <a href="https://goo.gl/maps/4K1tAes2QQM6W67z6">Location Map<br> </a>
                 </div>
             </div>
+        </div>
+        
+        <div class="maps">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.389581986102!2d-77.09991388499562!3d38.983604179557396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97c93d073e1%3A0x4d5621c2b72bffd0!2s4867%20Montgomery%20Ln%20%23300%2C%20Bethesda%2C%20MD%2020814%2C%20USA!5e0!3m2!1sen!2sar!4v1657556389122!5m2!1sen!2sar" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
         <div class="bottom-line">
             <span class="toggleoneline">
@@ -133,6 +137,6 @@
     </footer>
     <script src="js/main.js"></script>
     <script src="js/weatherapi.js"></script>
-    <script src="js/spotlight.js"></script>
+    <script src="js/temples_spotlight.js"></script>
 </body>
 </html>

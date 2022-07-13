@@ -94,15 +94,12 @@ header, footer {
 	text-align: center;
 	text-decoration: none;
 	color: black;
+	margin: 0.5em;
 }
 .navigation a:hover {
 	color: white;
 	background-color: #695454;
 	font-weight: 700;
-}
-
-.responsive li {
-	display: block;
 }
 
 footer {
@@ -119,6 +116,7 @@ footer {
 .footer-info {
 	margin-top: 10px;
 }
+
 .maps{
 	margin: 10px;
 }
@@ -127,27 +125,25 @@ footer {
 	border-radius: 5px;
 	background-color: #DFF0D8;
 	padding: 0.5em;
+	margin: 0.5rem 0;
   }
 
 .spotlight {
 	display: block;
-	background-color: #DFF0D8;
 	margin: 0.5rem 0 0 0;
 	border-radius: 5px;
 }
 .spot1 {
 	width: auto;
-	height: 220px;
 	border-radius: 5px;
 	border-style: solid;
 	border-width: 1px;
 	padding: 0.5em;
-	margin: 0.5rem 0;
+	margin: 0.25rem;
 	text-align: center;
 }
 .spot1 img {
-	margin: auto;
-	max-height: 70px;
+	width: 100%;
 }
 .spot1 h3 {
 	padding: 0;
@@ -182,7 +178,7 @@ p {
 	display: grid;
 	grid-template-rows: 25% 45% 15% 15%;
 	grid-template-columns: 30% 35% 35%;
-	margin-top: 0.5em;
+	margin: 0.5rem 0;
 	padding: 0.5rem;
 }
 .weather h3 {
@@ -255,10 +251,10 @@ p {
 .hero img {
 	width: 100%;
 }
-.hero #join1 {
+.hero #join {
 	position: absolute;
-	top: 230px;
-	left: 130px;
+	top: 10px;
+	left: 250px;
 	width: 130px;
 	height: 40px;
 	font-weight: bold;
@@ -268,40 +264,7 @@ p {
 	border-radius: 0.5em;
 	background-color: #DFF0D8;
 }
-.spot img {
-	width: 100px;
-	height: auto;
-	
-}
-.spot {
-	border: solid;
-	border-width: 1px;
-	padding: 1em;
-	margin-top: 1em;
-}
-.spot1 img {
-	width: 80px;
-	height: auto;
-}
-.spot picture {
-	padding-left: 130px;
-}
 
-.spot1 #spot1-1 {
-	font-weight: bold;
-	font-size: medium ;
-	padding-top: 0.5em;
-	height: auto;
-}
-.spot1 #spot1-2 #spot1-3 {
-	font-weight: bold;
-	font-size: medium ;
-	padding-top: 0.5em;
-}
-#spot1-2 {
-	border-top: solid;
-	border-width: 1px;
-}
 .info, .location {
 	font-size: medium;
 	padding-top: 0;

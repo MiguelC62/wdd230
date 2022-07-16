@@ -96,6 +96,18 @@ footer {
     margin: 0 2rem;
     padding: 1rem;
 }
+
+/*---Temples Page -----*/
+
+.cards {
+	display: grid;
+	grid-column: 1 / 5;
+	grid-row: 1 / 4;
+	grid-template-columns: repeat(2, minmax(100px, 1fr));
+    column-gap: 10px;
+    margin-right: 10px;
+  }
+
 /*discover page*/
 
 #discover {

@@ -27,7 +27,6 @@
     .forecast {
         grid-column: 3 / 5;
         grid-row: 3 / 4;
-        margin: 0.5em;
     }
     .spot1 {
         display: flex;
@@ -60,21 +59,7 @@
     .address h3 {
         text-align: left;
     }
-    .weather {
-        margin-left: 0;
-        padding-right: 0.5em;
-    }
-    .weather img {
-        padding-left: 0.5em;
-    }
-    #back {
-        position: absolute;
-        left: 150px;
-        top: -30px;
-    }
-    .box {
-        padding: 0;
-      }
+    
     .hero img {
     width: 100%;
     padding-top: 0;
@@ -87,7 +72,30 @@ main picture.photo {
   h3 {
 	font-size: x-large;
 }
-
+footer {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 80% 20%;
+}
+.bottom-line {
+	grid-column: 1 / 4;
+	grid-row: 2 / 3;
+	text-align: center;
+	font-size: medium;
+}
+/*----Reservation------*/
+#thanks {
+    grid-column: 1 / 5;
+    grid-row: 1 / 4;
+    margin: 1rem;
+    padding: 1rem;
+}
+#page-join {
+    grid-column: 1 / 5;
+    grid-row: 1 / 4;
+    margin: 0 2rem;
+    padding: 1rem;
+}
 /*discover page*/
 
 #discover {

@@ -269,65 +269,40 @@ p {
 	padding-top: 0;
 }
 
-/*-----discover page------*/
+/*-----Service Page------*/
 
-#discover {
-	display: block;
+#services p {
+	font-size: large;
 }
 
-#discover p {
-	font-size: small;
-}
-#discover-images {
-	background-color: rgb(207,232,220);
-	padding-left: 10px;
-	padding-bottom: 0px;
-	margin-top: 5px;
-	border: 1px solid #000;
-	border-radius: 5px;
-}
-
-#discover-images p {
-text-align: center;
-margin: 0px 10px 20px 5px;
-}
-
-#discover-images img {
-	border: 1px solid #000;
-    margin: 5px;
-}
-
-#discover-text {
-	display: flex;
-    flex-direction: column;
-}
-
-.discover-text-box {
+#free, #specialized, #receptions, #missionaries {
 	border: 1px solid #000;
     margin: 5px;
 	text-align: center;
 	padding: 0px 20px 20px 20px;
 	border-radius: 5px;
-	background-color: rgb(207,232,220);
-}
-
-.discover-text-box h2 {
-	padding-top: 20px;
-	padding-bottom: 10px;
+	background-color: #DFF0D8;
 	font-size: large;
 }
-
-.label {
-	font-family: Arial, sans-serif;
-	font-weight: 700;
+#receptions button, #missionaries button {
+	border: 1px solid #000;
+    margin: 10px;
+	text-align: center;
+	padding: 10px;
+	border-radius: 5px;
+	background-color: #9c2c13;
+	font-size: large;
 }
-
-#visits {
-	color: #000;
-	font-weight: bolder;
-	font-size: medium;
+/*----Missionaries Page-------*/
+#mission_one, #mission_two, #mission_three, #mission_four {
+	border: 1px solid #000;
+    margin: 5px;
+	text-align: center;
+	padding: 0px 20px 20px 20px;
+	border-radius: 5px;
+	background-color: #DFF0D8;
+	font-size: large;
 }
-
 /* hover effect */
 .norm:hover {box-shadow: 0 0 50px #333;}
 

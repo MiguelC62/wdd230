@@ -20,6 +20,7 @@
       let p1 = document.createElement("p");
       let p2 = document.createElement("p");
       let p3 = document.createElement("a");
+      
   
       card.setAttribute("class", "box spot1")
       
@@ -40,13 +41,46 @@
       photo.setAttribute('src', temple.imageurl);
       photo.setAttribute('alt', `Image of ${temple.name}`);
       photo.setAttribute('loading', 'lazy');
+
+      //history
+      let history = document.createElement("p");
+      history.textContent = `${temple.history}`;
+
+      //button like
+      let favorite = document.createElement("button");
+      const heart = document.createElement("img");
+      heart.setAttribute("alt", "like heart" );
+      favorite.appendChild(heart);
+
+      if(localStorage.getItem(temple.name) == "true") {
+        heart.src = "images/heart-red.jpg";
+        }
+        else {
+            heart.src = "images/heart-black.jpg";
+        }
+
+    favorite.setAttribute('id', 'like');
+    favorite.setAttribute('value', "like-btn");
+    favorite.addEventListener("click", () => {
+            if(localStorage.getItem(temple.name) == "true") {
+            localStorage.setItem(temple.name, "false");
+            heart.src = "images/heart-black.jpg";
+        }
+        else {
+            localStorage.setItem(temple.name, "true");
+            heart.src = "images/heart-red.jpg";
+        }
+    });
+
   
       // Add/append the section(card) with the h2 element
       card.appendChild(h3);
       card.appendChild(photo);
       card.appendChild(p1);
       card.appendChild(p2);
+      card.appendChild(history);
       card.appendChild(p3);
+      card.appendChild(favorite)
   
       
       // Add/append the existing HTML div with the cards class with the section(card)

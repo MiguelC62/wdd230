@@ -20,9 +20,14 @@ function toggleMenu() {
   document.getElementsByClassName("navigation")[0].classList.toggle("responsive")
 }
 //weather alert at the top of the page
-let d = new Date().getDay();
-const alert = document.getElementById("alert");
-if ( d === 1 || d === 2) {
-  alert.style.display = "block";
+let d = 1;
+const message = document.getElementById("alert");
+if ( d === 1 ) {
+  message.style.display = "block";
 }
+
+function remove(el) {
+    const element = el;
+    element.remove();
+    }
 //

@@ -273,6 +273,7 @@ p {
 
 #services p {
 	font-size: large;
+	margin: 20px;
 }
 
 #free, #specialized, #receptions, #missionaries {
@@ -292,6 +293,9 @@ p {
 	border-radius: 5px;
 	background-color: #9c2c13;
 	font-size: large;
+}
+#services img {
+	width: 100%;
 }
 /*----Missionaries Page-------*/
 #mission_one, #mission_two, #mission_three, #mission_four {

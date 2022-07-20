@@ -9,27 +9,27 @@
         "imageurl": "images/washington-medium.jpg"
         },
         {
-        "name": "Salt Lake City Temple",
-        "adress": "9900 Stoneybrook Dr Kensington MD 20895-3199 US",
-        "phone_number": "+1 301-588-0650",
+        "name": "Salt Lake Temple",
+        "adress": "50 W North Temple St, Salt Lake City UT 84150-9709, US",
+        "phone_number": "+1 801-240-2640",
         "website": "https://www.churchofjesuschrist.org/temples/details/washington-d.c.-temple?lang=eng",
         "status": "Temple closed during renovation",
         "imageurl": "images/salt_lake-medium.jpg"
         },
         {
-        "name": "Navoo Temple",
-        "adress": "9900 Stoneybrook Dr Kensington MD 20895-3199 US",
-        "phone_number": "+1 301-588-0650",
-        "website": "https://www.churchofjesuschrist.org/temples/details/washington-d.c.-temple?lang=eng",
-        "status": "Temple closed during renovation",
-        "imageurl": "images/nauvoo_temple_medium.jpg.jpg"
+        "name": "Nauvoo Illinois Temple",
+        "adress": "50 N Wells St, Nauvoo IL 62354, United States",
+        "phone_number": "+1 217-453-6252",
+        "website": "https://www.churchofjesuschrist.org/temples/details/nauvoo-illinois-temple?lang=eng",
+        "status": "Temple is returning to normal operations",
+        "imageurl": "images/nauvoo_temple-medium.jpg"
         },
         {
-        "name": "Buenos Aires Temple",
-        "adress": "9900 Stoneybrook Dr Kensington MD 20895-3199 US",
-        "phone_number": "+1 301-588-0650",
-        "website": "https://www.churchofjesuschrist.org/temples/details/washington-d.c.-temple?lang=eng",
-        "status": "Temple closed during renovation",
+        "name": "Buenos Aires Argentine Temple",
+        "adress": "Aut. Tte. Gral. Riccheri N° 4955, B1778DUA Ciudad Evita, Buenos Aires, Argentina",
+        "phone_number": "+54 11-4693-9700",
+        "website": "https://www.churchofjesuschrist.org/temples/details/buenos-aires-argentina-temple?lang=eng",
+        "status": "Temple is returning to normal operations",
         "imageurl": "images/buenos_aires-medium.jpg"
         }
         

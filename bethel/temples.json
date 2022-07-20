@@ -6,31 +6,31 @@
         "phone_number": "+1 301-588-0650",
         "website": "https://www.churchofjesuschrist.org/temples/details/washington-d.c.-temple?lang=eng",
         "status": "Temple closed during renovation",
-        "imageurl": "images/washington_temple_small.jpg"
+        "imageurl": "images/washington-medium.jpg"
         },
         {
-        "name": "Washington D.C. Temple",
+        "name": "Salt Lake City Temple",
         "adress": "9900 Stoneybrook Dr Kensington MD 20895-3199 US",
         "phone_number": "+1 301-588-0650",
         "website": "https://www.churchofjesuschrist.org/temples/details/washington-d.c.-temple?lang=eng",
         "status": "Temple closed during renovation",
-        "imageurl": "images/washington_temple_small.jpg"
+        "imageurl": "images/salt_lake-medium.jpg"
         },
         {
-        "name": "Washington D.C. Temple",
+        "name": "Navoo Temple",
         "adress": "9900 Stoneybrook Dr Kensington MD 20895-3199 US",
         "phone_number": "+1 301-588-0650",
         "website": "https://www.churchofjesuschrist.org/temples/details/washington-d.c.-temple?lang=eng",
         "status": "Temple closed during renovation",
-        "imageurl": "images/washington_temple_small.jpg"
+        "imageurl": "images/nauvoo_temple_medium.jpg.jpg"
         },
         {
-        "name": "Washington D.C. Temple",
+        "name": "Buenos Aires Temple",
         "adress": "9900 Stoneybrook Dr Kensington MD 20895-3199 US",
         "phone_number": "+1 301-588-0650",
         "website": "https://www.churchofjesuschrist.org/temples/details/washington-d.c.-temple?lang=eng",
         "status": "Temple closed during renovation",
-        "imageurl": "images/washington_temple_small.jpg"
+        "imageurl": "images/buenos_aires-medium.jpg"
         }
         
     ]

@@ -24,7 +24,7 @@
   
       card.setAttribute("class", "box spot1")
       
-      var linkText = document.createTextNode("link to the Temple");
+      var linkText = document.createTextNode("Link to Ordinance Schedule");
       p3.appendChild(linkText);
       p3.title = "Temple";
       p3.href = temple.website;

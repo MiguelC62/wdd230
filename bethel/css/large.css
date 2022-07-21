@@ -31,9 +31,7 @@ main {
 .spot1 img {
 	width: 100%;
 }
-.spot1 p {
-	padding: 1rem 2rem;
-}
+
 .forecast {
 	grid-column: 3 / 5;
 	grid-row: 3 / 4;

@@ -156,13 +156,6 @@ p {
 	margin: 0 0.5rem 0.5rem;
 	text-align: center;
 }
-.box.spot1 img {
-	width: 100%;
-	margin: 10px 0;
-}
-.box.spot1 h3 {
-	margin: 0;
-}
 
 .bottom-line {
 	display: block;
@@ -359,7 +352,6 @@ p {
 	 justify-content: center;
 	 width: 100%;
 	 max-width: 10rem;
-	 
  }
  #page-join form label.top input:required {
 	 border-left: red solid 6px;
@@ -386,4 +378,23 @@ p {
 	margin-top: 0.5rem;
  }
 
-
+ .box.spot1 img {
+	width: 100%;
+	margin: 10px 0;
+}
+.box.spot1 h3 {
+	margin: 0;
+}
+.box.spot1 {
+	display: block;
+	line-height: 1.5;
+	align-items: center;
+}
+.box.spot1 button {
+	background-color: #DFF0D8;
+	border: none;
+	float: right;
+	padding-left: 10px;
+	margin-left: 50px;
+	
+}

@@ -24,7 +24,7 @@
   
       card.setAttribute("class", "box spot1")
       
-      var linkText = document.createTextNode("Temple link");
+      var linkText = document.createTextNode("link to the Temple");
       p3.appendChild(linkText);
       p3.title = "Temple";
       p3.href = temple.website;
@@ -53,10 +53,10 @@
       favorite.appendChild(heart);
 
       if(localStorage.getItem(temple.name) == "true") {
-        heart.src = "images/heart-red.jpg";
+        heart.src = "images/heart-red.png";
         }
         else {
-            heart.src = "images/heart-black.jpg";
+            heart.src = "images/heart-black.png";
         }
 
     favorite.setAttribute('id', 'like');
@@ -64,11 +64,11 @@
     favorite.addEventListener("click", () => {
             if(localStorage.getItem(temple.name) == "true") {
             localStorage.setItem(temple.name, "false");
-            heart.src = "images/heart-black.jpg";
+            heart.src = "images/heart-black.png";
         }
         else {
             localStorage.setItem(temple.name, "true");
-            heart.src = "images/heart-red.jpg";
+            heart.src = "images/heart-red.png";
         }
     });
 
@@ -80,7 +80,7 @@
       card.appendChild(p2);
       card.appendChild(history);
       card.appendChild(p3);
-      card.appendChild(favorite)
+      card.appendChild(favorite);
   
       
       // Add/append the existing HTML div with the cards class with the section(card)

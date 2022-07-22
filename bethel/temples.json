@@ -2,8 +2,8 @@
     "temples": [
         {
         "name": "Washington D.C. Temple",
-        "adress": "9900 Stoneybrook Dr Kensington MD 20895-3199 US",
-        "phone_number": "+1 301-588-0650",
+        "adress": "adress: 9900 Stoneybrook Dr Kensington MD 20895-3199 US",
+        "phone_number": "phone: +1 301-588-0650",
         "website": "https://www.churchofjesuschrist.org/temples/details/washington-d.c.-temple?lang=eng",
         "history": "Announced: 15 November 1968, Groundbreaking: 7 December 1968, Dedicated: 19 November 1974",
         "status": "Temple closed during renovation",
@@ -11,8 +11,8 @@
         },
         {
         "name": "Salt Lake Temple",
-        "adress": "50 W North Temple St, Salt Lake City UT 84150-9709, US",
-        "phone_number": "+1 801-240-2640",
+        "adress": "adress: 50 W North Temple St, Salt Lake City UT 84150-9709, US",
+        "phone_number": "phone: +1 801-240-2640",
         "website": "https://www.churchofjesuschrist.org/temples/details/washington-d.c.-temple?lang=eng",
         "history": "Announced: 28 July 1847, Groundbreaking: 14 February 1853, Dedicated: 6 April 1893",
         "status": "Temple closed during renovation",
@@ -20,8 +20,8 @@
         },
         {
         "name": "Nauvoo Illinois Temple",
-        "adress": "50 N Wells St, Nauvoo IL 62354, United States",
-        "phone_number": "+1 217-453-6252",
+        "adress": "adress: 50 N Wells St, Nauvoo IL 62354, United States",
+        "phone_number": "phone: +1 217-453-6252",
         "website": "https://www.churchofjesuschrist.org/temples/details/nauvoo-illinois-temple?lang=eng",
         "history": "Announced: 4 April 1999, Groundbreaking: 24 October 1999, Dedicated: 27 June 2002",
         "status": "Temple is returning to normal operations",
@@ -29,8 +29,8 @@
         },
         {
         "name": "Buenos Aires Argentine Temple",
-        "adress": "Aut. Tte. Gral. Riccheri N° 4955, B1778DUA Ciudad Evita, Buenos Aires, Argentina",
-        "phone_number": "+54 11-4693-9700",
+        "adress": "adress: Aut. Tte. Gral. Riccheri N° 4955, B1778DUA Ciudad Evita, Buenos Aires, Argentina",
+        "phone_number": "phone: +54 11-4693-9700",
         "website": "https://www.churchofjesuschrist.org/temples/details/buenos-aires-argentina-temple?lang=eng",
         "history": "Announced: 2 April 1980, Groundbreaking: 20 April 1983, Dedicated: 17 January 1986",
         "status": "Temple is returning to normal operations",

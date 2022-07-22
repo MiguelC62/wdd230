@@ -17,7 +17,7 @@ header, main, footer {
 
 header {
 	display: grid;
-	grid-template-columns: 1fr 50% 1fr;
+	grid-template-columns: 1fr 57% 1fr;
 	grid-template-rows: 20% 60% 20%;
 }
 
@@ -173,7 +173,6 @@ p {
 	display: grid;
 	grid-template-rows: 25% 45% 15% 15%;
 	grid-template-columns: 30% 35% 35%;
-
 }
 .weather h3 {
 	grid-column: 1 / 4;
@@ -270,7 +269,7 @@ p {
 /*-----Service Page------*/
 
 #services p {
-	font-size: large;
+	font-size: larger;
 	margin: 20px;
 }
 
@@ -294,6 +293,10 @@ p {
 }
 #services img {
 	width: 100%;
+}
+#free, #specialized ul{
+	list-style-position: inside;
+	
 }
 /*----Missionaries Page-------*/
 #mission_one, #mission_two, #mission_three, #mission_four {
@@ -400,7 +403,10 @@ p {
 	background-color: #DFF0D8;
 	border: none;
 	float: right;
-	padding-left: 10px;
-	margin-left: 50px;
 }
- 
+/*-----CONTACT PAGE ------*/
+#contact {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr;
+}

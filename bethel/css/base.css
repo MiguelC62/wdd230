@@ -116,6 +116,7 @@ footer {
 
 .footer-info {
 	margin-top: 10px;
+	background-color: #DFF0D8;
 }
 
 .maps{
@@ -258,7 +259,7 @@ p {
 }
 
 .info, .location {
-	font-size: medium;
+	font-size: large;
 	padding-top: 0;
 }
 
@@ -397,5 +398,5 @@ p {
 	float: right;
 	padding-left: 10px;
 	margin-left: 50px;
-	
 }
+ 

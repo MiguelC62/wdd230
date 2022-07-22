@@ -116,7 +116,10 @@ footer {
 
 .footer-info {
 	margin-top: 10px;
-	background-color: #DFF0D8;
+
+}
+.footer-info a {
+	color: #FFF;
 }
 
 .maps{
@@ -162,7 +165,7 @@ p {
 .bottom-line {
 	display: block;
 	text-align: center;
-	font-size: xx-large;
+	font-size: large;
 	color: #FFF;
 }
 

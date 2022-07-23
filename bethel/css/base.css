@@ -18,7 +18,7 @@ header, main, footer {
 header {
 	display: grid;
 	grid-template-columns: 1fr 57% 1fr;
-	grid-template-rows: 20% 60% 20%;
+	grid-template-rows: 15% 70% 15%;
 }
 
 header, footer {
@@ -91,7 +91,7 @@ header, footer {
 }
 .navigation a {
 	display: block;
-	padding: 20px 0;
+	padding: 0;
 	text-align: center;
 	text-decoration: none;
 	color: black;
@@ -101,6 +101,10 @@ header, footer {
 	color: white;
 	background-color: #695454;
 	font-weight: 700;
+}
+
+.responsive li {
+	display: block;
 }
 
 footer {
@@ -136,7 +140,7 @@ h3 {
 }
 p {
 	text-align: center;
-	font-size: large;
+	font-size: x-large;
 }
 /*----------Index Page ---------*/
 .box {
@@ -269,7 +273,7 @@ p {
 /*-----Service Page------*/
 
 #services p {
-	font-size: larger;
+	font-size: x-larger;
 	margin: 20px;
 }
 
@@ -280,7 +284,7 @@ p {
 	padding: 0px 20px 20px 20px;
 	border-radius: 5px;
 	background-color: #DFF0D8;
-	font-size: large;
+	font-size: x-large;
 }
 #receptions button, #missionaries button {
 	border: 1px solid #000;
@@ -290,12 +294,14 @@ p {
 	border-radius: 5px;
 	background-color: #9c2c13;
 	font-size: large;
+	color: #FFF;
 }
 #services img {
 	width: 100%;
 }
 #free, #specialized ul{
 	list-style-position: inside;
+	text-align: left;
 	
 }
 /*----Missionaries Page-------*/
@@ -321,7 +327,7 @@ p {
 }
 
 #page-join form fieldset, #thanks {
-	margin: 1rem 0;
+	margin: 0.5rem 0;
 	border: 1px solid #445ba9;
 	border-radius: 10px;
 	padding: 0.5rem 2%;
@@ -361,6 +367,7 @@ p {
 	 justify-content: center;
 	 width: 100%;
 	 max-width: 10rem;
+	 margin-bottom: 10px;
  }
  #page-join form label.top input:required {
 	 border-left: red solid 6px;
@@ -404,9 +411,12 @@ p {
 	border: none;
 	float: right;
 }
+#like {
+	height: 20px;
+}
 /*-----CONTACT PAGE ------*/
 #contact {
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-columns: 1fr;
 	grid-template-rows: 1fr;
 }
